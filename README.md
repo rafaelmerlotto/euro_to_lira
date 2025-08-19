@@ -30,7 +30,7 @@ gem 'euro_to_lira', git: 'https://github.com/rafaelmerlotto/euro_to_lira.git'
 
 ## Usage
 
-```
+```ruby
 require 'euro_to_lira'
 
 EuroToLira.to_lira(10)    # => 19362.7
