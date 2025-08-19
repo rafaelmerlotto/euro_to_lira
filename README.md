@@ -12,7 +12,7 @@ $ gem install euro_to_lira
 
 Or, Add it to your Gemfile:
 
-```bash
+```ruby
 gem euro_to_lira
 ```
 
@@ -24,7 +24,7 @@ $ bundle install
 
 If you want to use it directly from GitHub:
 
-```bash
+```ruby
 gem 'euro_to_lira', git: 'https://github.com/rafaelmerlotto/euro_to_lira.git'
 ```
 
