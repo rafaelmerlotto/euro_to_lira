@@ -10,6 +10,25 @@ You can install the gem via RubyGems once it is released:
 $ gem install euro_to_lira
 ```
 
+Or, Add it to your Gemfile:
+
+```bash
+gem euro_to_lira
+```
+
+Then run: 
+
+```bash
+$ bundle install
+```
+
+If you want to use it directly from GitHub:
+
+```bash
+gem 'euro_to_lira', git: 'https://github.com/rafaelmerlotto/euro_to_lira.git'
+```
+
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/rafaelmerlotto/euro_to_lira. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/rafaelmerlotto/euro_to_lira/blob/main/CODE_OF_CONDUCT.md).
