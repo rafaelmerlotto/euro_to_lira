@@ -5,7 +5,8 @@ RSpec.describe EuroToLira do
     expect(EuroToLira::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "converte 1 EUR in 1936.27 lire" do
+    expect(EuroToLira.to_lira(1)).to eq(1936.27)
   end
+
 end
