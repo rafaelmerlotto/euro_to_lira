@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Rafael Merlotto"]
   spec.email = ["rafaelmerlotto@gmail.com"]
 
-  spec.summary = "Gem per convertire Euro in Lire italiane e viceversa."
-  spec.description = "Conversione basata sul tasso fisso 1 EUR = 1936.27 ITL"
+  spec.summary = "Convert Euros to Italian Lire and vice versa."
+  spec.description = "A small Ruby gem to convert between EUR and ITL using the fixed historical rate (1 EUR = 1936.27 ITL)"
   spec.homepage = "https://github.com/rafaelmerlotto/euro_to_lira"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
