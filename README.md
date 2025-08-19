@@ -28,6 +28,19 @@ If you want to use it directly from GitHub:
 gem 'euro_to_lira', git: 'https://github.com/rafaelmerlotto/euro_to_lira.git'
 ```
 
+## Usage
+
+```
+require 'euro_to_lira'
+
+EuroToLira.to_lira(10)    # => 19362.7
+EuroToLira.to_euro(1936)  # => 1.0
+
+# Raises an error for invalid input
+EuroToLira.to_lira("10")  # => ArgumentError
+
+```
+
 
 ## Contributing
 
