@@ -41,6 +41,19 @@ EuroToLira.to_lira("10")  # => ArgumentError
 
 ```
 
+## Development
+
+```bash
+$ bin/setup      # Install dependencies
+$ rake spec      # Run tests
+$ bin/console    # Interactive console for experimentation
+```
+
+To install the gem locally:
+
+```bash
+$ bundle exec rake install
+```
 
 ## Contributing
 
