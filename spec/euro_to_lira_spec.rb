@@ -33,9 +33,4 @@ RSpec.describe EuroToLira do
     end
   end
   
-
-  
-
-  
-
 end
