@@ -1,6 +1,6 @@
 # EuroToLira
 
-[![Gem Version](https://img.shields.io/gem/v/euro_to_lira.svg)](https://rubygems.org/gems/euro_to_lira)
+[![Gem Version](https://badge.fury.io/rb/euro_to_lira.svg)](https://badge.fury.io/rb/euro_to_lira)
 
 
 A simple Ruby gem for converting between Euros (EUR) and Italian Lire (ITL) using the fixed historical conversion rate (1 EUR = 1936.27 ITL).
