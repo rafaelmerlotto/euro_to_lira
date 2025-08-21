@@ -30,6 +30,12 @@ RSpec.describe EuroToLira do
       expect { EuroToLira.to_lira("1") }.to raise_error(ArgumentError)
       expect { EuroToLira.to_lira(nil) }.to raise_error(ArgumentError)
     end
+
+    it "converts string numbers to lira as numeric" do
+      value = "123.45".to_f 
+      lira = EuroToLira.to_lira(value)
+      expect(lira).to be_a(Numeric)
+    end
   end
 
   describe ".to_euro" do
@@ -49,6 +55,12 @@ RSpec.describe EuroToLira do
       expect { EuroToLira.to_euro("abc") }.to raise_error(ArgumentError)
       expect { EuroToLira.to_euro("1936.27") }.to raise_error(ArgumentError)
       expect { EuroToLira.to_euro(nil) }.to raise_error(ArgumentError)
+    end
+
+    it "converts string numbers to euro as numeric" do
+      value = "1".to_f 
+      euro = EuroToLira.to_euro(value)
+      expect(euro).to be_a(Numeric)
     end
   end
   
