@@ -16,7 +16,7 @@ $ gem install euro_to_lira
 Or, Add it to your Gemfile:
 
 ```ruby
-gem euro_to_lira
+gem 'euro_to_lira'
 ```
 
 Then run: 
